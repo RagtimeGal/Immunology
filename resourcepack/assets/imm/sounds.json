@@ -1,0 +1,21 @@
+{
+  "music_disc.extinction": {
+    "sounds": [
+      {
+        "name": "dnd:records/extinction",
+        "stream": true,
+        "attenuation_distance": 64
+      }
+    ]
+  },
+  "entity.villager.cough": {
+    "sounds": [
+      {
+        "name": "imm:entity/villager_cough",
+        "stream": true
+      }
+    ],
+    "subtitle": "subtitles.imm.entity.villager.cough",
+    "category": "master"
+  }
+}

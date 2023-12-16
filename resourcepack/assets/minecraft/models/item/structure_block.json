@@ -1,0 +1,44 @@
+{
+  "parent": "block/structure_block",
+  "textures": {
+    "layer0": "block/structure_block"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 402000
+      },
+      "model": "imm:item/shattered_wooden_tool"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 402001
+      },
+      "model": "imm:item/shattered_stone_tool"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 402002
+      },
+      "model": "imm:item/shattered_iron_tool"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 402003
+      },
+      "model": "imm:item/shattered_gold_tool"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 402004
+      },
+      "model": "imm:item/shattered_diamond_tool"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 402005
+      },
+      "model": "imm:item/shattered_netherite_tool"
+    }
+  ]
+}
