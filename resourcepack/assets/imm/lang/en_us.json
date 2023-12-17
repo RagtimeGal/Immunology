@@ -118,6 +118,8 @@
   "advancements.imm.immunology.vomit_food.description": "Attempt to eat the same food twice while Zombifying",
   "advancements.imm.immunology.agro_iron_golem_zombified.title": "Friend Not Foe!",
   "advancements.imm.immunology.agro_iron_golem_zombified.description": "Get too close to an Iron Golem while Zombifying",
+  "advancements.imm.immunology.cure_illness_with_gapple.title": "Ambrosia",
+  "advancements.imm.immunology.cure_illness_with_gapple.description": "Cure yourself of illness by consuming an Enchanted Golden Apple",
 
   "imm (MISSING RESOURCES)": "%s",
   "The Immunology Resource Pack is not installed.": "%s"

@@ -1,0 +1,29 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:rotten_flesh"
+      },
+      "title": {
+        "translate": "advancements.imm.immunology.root.title"
+      },
+      "description": {
+        "translate": "advancements.imm.immunology.root.description"
+      },
+      "frame": "task",
+      "show_toast": false,
+      "announce_to_chat": false,
+      "hidden": false,
+      "background": "minecraft:textures/block/iron_block.png"
+    },
+    "criteria": {
+      "tick": {
+        "trigger": "minecraft:tick"
+      }
+    },
+    "requirements": [
+      [
+        "tick"
+      ]
+    ]
+  }
+  
