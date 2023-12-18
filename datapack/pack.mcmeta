@@ -1,6 +1,6 @@
 {
   "pack": {
-    "pack_format": 26,
+    "pack_format": 27,
     "description": [
       {
         "color": "#683D24",
@@ -18,7 +18,7 @@
   "overlays" : {
     "entries": [
       {
-        "formats": 26,
+        "formats": 27,
         "directory": "versioning"
       }
     ]
