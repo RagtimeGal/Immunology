@@ -1,0 +1,7 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "imm:item/plague_mask",
+        "layer1": "imm:item/plague_mask"
+    }
+}

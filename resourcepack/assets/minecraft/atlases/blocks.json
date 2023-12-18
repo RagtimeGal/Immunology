@@ -4,6 +4,11 @@
       "type": "directory",
       "source": "imm_entity",
       "prefix": "entity/"
+    },
+    {
+      "type": "directory",
+      "source": "imm_models",
+      "prefix": "models/"
     }
   ]
 }

@@ -15,6 +15,12 @@
 				"custom_model_data": 402001
 			},
 			"model": "imm:item/basidia"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 402002
+			},
+			"model": "imm:armor/plague_mask"
 		}
 	]
 }

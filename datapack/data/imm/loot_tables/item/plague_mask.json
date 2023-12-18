@@ -1,0 +1,62 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{color:0},AttributeModifiers:[{Amount:0d,Slot:\"head\",AttributeName:\"minecraft:generic.armor\",Name:\"minecraft:generic.armor\",Operation:0,UUID:[I;2,0,3,3]}],HideFlags:70,Unbreakable:1b,imm:{id:\"imm:plague_mask\"},CustomModelData:402002}"
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": {
+                                "translate": "item.imm.plague_mask",
+                                "color": "white",
+                                "italic": false
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "lore": [
+                                {
+                                    "translate": "pack.imm.tooltip",
+                                    "color": "white",
+                                    "italic": false,
+                                    "font": "imm:tooltip",
+                                    "with": [
+                                        {
+                                            "translate": "pack.imm",
+                                            "color": "#9d1e2d",
+                                            "italic": true,
+                                            "font": "minecraft:default"
+                                        }
+                                    ]
+                                },
+                                "",
+                                {
+                                    "translate": "item.modifiers.head",
+                                    "color": "gray",
+                                    "italic": false
+                                },
+                                [
+                                    " ",
+                                    {
+                                        "translate": "item.imm.plague_mask.desc",
+                                        "italic": false,
+                                        "color": "blue"
+                                    }
+                                ]
+                            ]
+                        }
+                    ],
+                    "name": "minecraft:leather_helmet"
+                }
+            ]
+        }
+    ],
+    "random_sequence": "imm:items/plague_mask"
+}

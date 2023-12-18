@@ -1,0 +1,37 @@
+{
+    "parent": "imm:technical/root",
+    "criteria": {
+      "equip_plague_mask": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "player": {
+            "equipment": {
+              "head": {
+                "items": [
+                  "minecraft:leather_helmet"
+                ],
+                "nbt": "{imm:{id:\"imm:plague_mask\"}}"
+              }
+            }
+          },
+          "items": [
+            {
+              "items": [
+                "minecraft:leather_helmet"
+              ],
+              "nbt": "{imm:{id:\"imm:plague_mask\"}}"
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "function": "imm:item/plague_mask/equip"
+    },
+    "requirements": [
+      [
+        "equip_plague_mask"
+      ]
+    ]
+  }
+  

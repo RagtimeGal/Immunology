@@ -1,0 +1,27 @@
+{
+    "parent": "imm:technical/root",
+    "criteria": {
+      "pick_up_plague_mask": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:warped_fungus_on_a_stick"
+              ],
+              "nbt": "{imm:{id:\"imm:plague_mask\"}}"
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "function": "imm:item/plague_mask/unequip/main"
+    },
+    "requirements": [
+      [
+        "pick_up_plague_mask"
+      ]
+    ]
+  }
+  

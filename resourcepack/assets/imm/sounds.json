@@ -1,21 +1,21 @@
 {
-  "music_disc.extinction": {
+  "entity.sneeze": {
     "sounds": [
-      {
-        "name": "dnd:records/extinction",
-        "stream": true,
-        "attenuation_distance": 64
-      }
-    ]
-  },
-  "entity.villager.cough": {
-    "sounds": [
-      {
-        "name": "imm:entity/villager_cough",
-        "stream": true
-      }
+      "imm:mob/sneeze1",
+      "imm:mob/sneeze2",
+      "imm:mob/sneeze3"
     ],
-    "subtitle": "subtitles.imm.entity.villager.cough",
-    "category": "master"
+    "subtitle": "subtitles.imm.entity.sneeze"
+  },
+  "item.armor.equip_plague_mask": {
+    "sounds": [
+      "item/armor/equip_leather1",
+      "item/armor/equip_leather2",
+      "item/armor/equip_leather3",
+      "item/armor/equip_leather4",
+      "item/armor/equip_leather5",
+      "item/armor/equip_leather6"
+    ],
+    "subtitle": "subtitles.imm.item.armor.equip_plague_mask"
   }
 }

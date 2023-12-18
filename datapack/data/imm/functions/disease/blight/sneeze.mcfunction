@@ -8,4 +8,4 @@ effect give @s slowness 15 0
 execute if score @s imm.blight.milk_counter matches 1.. store result score @s imm.dummy run scoreboard players get @s imm.times_drank_milk_with_blight
 execute if score @s imm.blight.milk_counter matches 1.. run function imm:disease/blight/recursively_apply_effect
 ## Spread Illness
-execute at @s if predicate imm:random_chance/1_3 as @e[limit=1,sort=random,tag=!imm.has_blight,distance=0..10,tag=!imm.immune] run function imm:disease/blight/infect
+execute at @s if predicate imm:random_chance/1_3 as @e[limit=1,sort=random,tag=!imm.has_blight,distance=0..10,tag=!imm.immune,predicate=!imm:entity_properties/equipment/wearing_plague_mask] run function imm:disease/blight/infect

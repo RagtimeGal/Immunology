@@ -1,59 +1,73 @@
 {
-    "parent": "imm:technical/root",
-    "criteria": {
-      "attacked_by_smelly_mob": {
-        "trigger": "minecraft:entity_hurt_player",
-        "conditions": {
-          "player": [
-            {
-              "condition": "minecraft:inverted",
-              "term": {
-                "condition": "minecraft:entity_properties",
-                "entity": "this",
-                "predicate": {
-                  "equipment": {
-                    "chest": {
-                      "items": [
-                        "minecraft:leather_chestplate"
-                      ]
+  "parent": "imm:technical/root",
+  "criteria": {
+    "attacked_by_smelly_mob": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:all_of",
+            "terms": [
+              {
+                "condition": "minecraft:inverted",
+                "term": {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "equipment": {
+                      "chest": {
+                        "items": [
+                          "minecraft:leather_chestplate"
+                        ]
+                      }
                     }
                   }
                 }
-              }
-            },
-            {
-              "condition": "minecraft:inverted",
-              "term": {
-                "condition": "minecraft:entity_properties",
-                "entity": "this",
-                "predicate": {
-                  "equipment": {
-                    "head": {
-                      "items": [
-                        "minecraft:leather_helmet"
-                      ]
+              },
+              {
+                "condition": "minecraft:inverted",
+                "term": {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "equipment": {
+                      "head": {
+                        "items": [
+                          "minecraft:leather_helmet"
+                        ]
+                      }
                     }
                   }
                 }
+              },
+              {
+                "condition": "minecraft:inverted",
+                "term": {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "nbt": "{imm:{id:\"imm:plague_mask\"}}"
+                  }
+                }
               }
-            }
-          ],
-          "damage": {
-            "blocked": false,
-            "source_entity": {
-              "nbt": "{Tags:[\"imm.has_stench\"]}"
-            }
+            ]
+          }
+        ],
+        "damage": {
+          "blocked": false,
+          "source_entity": {
+            "nbt": "{Tags:[\"imm.has_stench\"]}"
           }
         }
       }
-    },
-    "requirements": [
-      [
-        "attacked_by_smelly_mob"
-      ]
-    ],
-    "rewards": {
-      "function": "imm:disease/stench/infect"
     }
+  },
+  "requirements": [
+    [
+      "attacked_by_smelly_mob"
+    ]
+  ],
+  "rewards": {
+    "function": "imm:disease/stench/infect"
   }
-  
+}
