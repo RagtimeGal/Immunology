@@ -1,0 +1,22 @@
+{
+    "parent": "imm:technical/root",
+    "criteria": {
+      "ate_food": {
+        "trigger": "minecraft:consume_item",
+        "conditions": {
+          "item": {
+            "tag": "imm:cannot_eat_while_smelly"
+          }
+        }
+      }
+    },
+    "requirements": [
+      [
+        "ate_food"
+      ]
+    ],
+    "rewards": {
+      "function": "imm:disease/stench/ate/main"
+    }
+  }
+  
