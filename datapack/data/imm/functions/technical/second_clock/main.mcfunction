@@ -3,6 +3,7 @@
 ####################
 
 ## Entity commands
+execute as @e[type=#imm:stench_carrier,tag=!imm.checked] at @s run function imm:disease/stench/mark_natural_entity
 execute as @e[type=#imm:technical/second_clock,tag=imm.second_clock] at @s run function imm:technical/second_clock/as_entity
 
 ## Player

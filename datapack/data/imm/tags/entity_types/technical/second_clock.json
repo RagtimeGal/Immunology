@@ -2,6 +2,8 @@
   "values": [
     "minecraft:item_display",
     "minecraft:marker",
-    "minecraft:interaction"
+    "minecraft:interaction",
+    "#imm:stench_carrier",
+    "minecraft:player"
   ]
 }

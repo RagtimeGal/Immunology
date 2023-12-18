@@ -1,0 +1,32 @@
+{
+  "parent": "imm:technical/root",
+  "criteria": {
+    "drank_milk": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Tags:[\"imm.has_stench\"]}"
+            }
+          }
+        ],
+        "item": {
+          "items": [
+            "minecraft:milk_bucket"
+          ]
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "drank_milk"
+    ]
+  ],
+  "rewards": {
+    "function": "imm:disease/stench/drank_milk"
+  }
+}

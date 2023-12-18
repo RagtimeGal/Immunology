@@ -2,8 +2,5 @@
 # Second Clock as the entities required
 ####################
 
-## Blocks
-execute if entity @s[tag=imm.block] run function imm:block/second_clock
-
-## Dinosaur
-execute if entity @s[tag=imm.dinosaur] run function imm:entity/dinosaur/second_clock
+## Has Stench
+execute as @s[tag=imm.has_stench] at @s run function imm:disease/stench/second_clock
