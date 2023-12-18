@@ -49,6 +49,8 @@
 
   "death.attack.imm.haunted": "%1$s's spirits haunted %2$s",
   "death.attack.imm.haunted.item": "%1$s's spirits haunted %2$s",
+  "death.attack.imm.bloodlet": "%1$s let go of too much blood",
+  "death.attack.imm.bloodlet.item": "%1$s let go of too much blood",
   "death.attack.imm.shapeshift": "%1$s shapeshifted their insides into their outsides",
   "death.attack.imm.shapeshift.player": "%1$s shapeshifted their insides into their outsides whilst trying to escape %2$s",
   "death.attack.imm.vomit": "%1$s vomited up their guts",
@@ -138,6 +140,8 @@
   "advancements.imm.immunology.contract_all_diseases.description": "Contract all Diseases",
   "advancements.imm.immunology.have_all_diseases.title": "Hypochondriac",
   "advancements.imm.immunology.have_all_diseases.description": "Contract all Diseases at the same time",
+  "advancements.imm.immunology.kill_entity_with_bloodletting.title": "Washington",
+  "advancements.imm.immunology.kill_entity_with_bloodletting.description": "Kill a mob by Bloodletting",
 
   "imm (MISSING RESOURCES)": "%s",
   "The Immunology Resource Pack is not installed.": "%s"
