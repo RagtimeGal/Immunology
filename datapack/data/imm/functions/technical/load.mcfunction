@@ -8,6 +8,7 @@ scoreboard objectives add imm.dummy2 dummy
 scoreboard objectives add imm.fleam_cooldown dummy
 scoreboard objectives add imm.data dummy
 scoreboard objectives add imm.warped_fungus_on_a_stick minecraft.used:minecraft.warped_fungus_on_a_stick
+scoreboard objectives add imm.times_drank_milk_with_blight dummy
 
 ## Trigger
 scoreboard objectives add imm.wiki trigger
