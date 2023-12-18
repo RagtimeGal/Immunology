@@ -9,6 +9,12 @@
 				"custom_model_data": 402000
 			},
 			"model": "imm:item/fleam"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 402001
+			},
+			"model": "imm:item/basidia"
 		}
 	]
 }

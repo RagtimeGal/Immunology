@@ -1,0 +1,61 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{HideFlags:2,imm:{id:\"imm:fleam\"},CustomModelData:402000}"
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": {
+                                "translate": "item.imm.fleam",
+                                "italic": false
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "lore": [
+                                {
+                                    "translate": "pack.imm.tooltip",
+                                    "color": "white",
+                                    "italic": false,
+                                    "font": "imm:tooltip",
+                                    "with": [
+                                        {
+                                            "translate": "pack.imm",
+                                            "color": "#9d1e2d",
+                                            "italic": true,
+                                            "font": "minecraft:default"
+                                        }
+                                    ]
+                                },
+                                "",
+                                {
+                                    "translate": "item.imm.fleam.desc1",
+                                    "color": "gray",
+                                    "italic": false
+                                },
+                                [
+                                    " ",
+                                    {
+                                        "translate": "item.imm.fleam.desc2",
+                                        "italic": false,
+                                        "color": "blue"
+                                    }
+                                ]
+                            ]
+                        }
+                    ],
+                    "name": "minecraft:warped_fungus_on_a_stick"
+                }
+            ]
+        }
+    ],
+    "random_sequence": "imm:item/fleam"
+}

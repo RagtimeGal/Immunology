@@ -1,9 +1,9 @@
 {
   "pack": {
-    "pack_format": 18,
+    "pack_format": 26,
     "description": [
       {
-        "color": "#FFAA00",
+        "color": "#683D24",
         "text": "Immunology"
       },
       {
@@ -18,7 +18,7 @@
   "overlays" : {
     "entries": [
       {
-        "formats": 18,
+        "formats": 26,
         "directory": "versioning"
       }
     ]

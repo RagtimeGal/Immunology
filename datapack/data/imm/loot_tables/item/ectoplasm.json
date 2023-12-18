@@ -1,0 +1,62 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{imm:{id:\"imm:ectoplasm\"},CustomModelData:402000}"
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": {
+                                "translate": "item.imm.ectoplasm",
+                                "color": "yellow",
+                                "italic": false
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "lore": [
+                                {
+                                    "translate": "pack.imm.tooltip",
+                                    "color": "white",
+                                    "italic": false,
+                                    "font": "imm:tooltip",
+                                    "with": [
+                                        {
+                                            "translate": "pack.imm",
+                                            "color": "#9d1e2d",
+                                            "italic": true,
+                                            "font": "minecraft:default"
+                                        }
+                                    ]
+                                },
+                                "",
+                                {
+                                    "translate": "item.imm.ectoplasm.desc1",
+                                    "color": "gray",
+                                    "italic": false
+                                },
+                                [
+                                    " ",
+                                    {
+                                        "translate": "item.imm.ectoplasm.desc2",
+                                        "italic": false,
+                                        "color": "blue"
+                                    }
+                                ]
+                            ]
+                        }
+                    ],
+                    "name": "minecraft:structure_block"
+                }
+            ]
+        }
+    ],
+    "random_sequence": "imm:item/ectoplasm"
+}

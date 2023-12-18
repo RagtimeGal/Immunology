@@ -2,7 +2,7 @@
   "pack": {
     "description": [
       {
-        "color": "#FFAA00",
+        "color": "#683D24",
         "text": "Immunology"
       },
       {
@@ -13,6 +13,6 @@
         "text": "v0.0.1"
       }
     ],
-    "pack_format": 18
+    "pack_format": 22
   }
 }
