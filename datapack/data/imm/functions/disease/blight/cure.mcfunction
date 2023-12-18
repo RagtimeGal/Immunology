@@ -13,5 +13,6 @@ tag @s remove imm.blight_cure.saturation
 tag @s remove imm.blight_cure.weakness
 tag @s remove imm.blight_cure.wither
 tag @s remove imm.ten_second_clock
+scoreboard players reset @s imm.times_drank_milk_with_blight
 title @s actionbar {"translate":"disease.imm.blight.consume_correct_suspicious_stew","color":"white"}
 advancement revoke @s from imm:technical/consume_item/blight_stews/drank_stew_while_blighted
