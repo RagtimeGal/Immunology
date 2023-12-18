@@ -33,7 +33,7 @@
             }
           ],
           "entity": {
-            "type": "#imm:can_carry_disease"
+            "type": "#imm:can_bloodlet"
           }
         }
       }
