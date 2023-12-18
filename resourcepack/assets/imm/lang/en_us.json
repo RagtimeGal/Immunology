@@ -135,13 +135,15 @@
   "advancements.imm.immunology.cure_illness_with_gapple.title": "Ambrosia",
   "advancements.imm.immunology.cure_illness_with_gapple.description": "Cure yourself of illness by consuming an Enchanted Golden Apple",
   "advancements.imm.immunology.bloodlet_ichor.title": "Ichor",
-  "advancements.imm.immunology.bloodlet_ichor.description": "Bloodlet an individual with Golden Blood",
+  "advancements.imm.immunology.bloodlet_ichor.description": "Obtain a vial of Ichor",
   "advancements.imm.immunology.contract_all_diseases.title": "Dead By Daylight",
   "advancements.imm.immunology.contract_all_diseases.description": "Contract all Diseases",
   "advancements.imm.immunology.have_all_diseases.title": "Hypochondriac",
   "advancements.imm.immunology.have_all_diseases.description": "Contract all Diseases at the same time",
   "advancements.imm.immunology.kill_entity_with_bloodletting.title": "Washington",
   "advancements.imm.immunology.kill_entity_with_bloodletting.description": "Kill a mob by Bloodletting",
+  "advancements.imm.immunology.transfuse_golden_blood.title": "Ascension",
+  "advancements.imm.immunology.transfuse_golden_blood.description": "Transfuse Ichor into your body",
 
   "imm (MISSING RESOURCES)": "%s",
   "The Immunology Resource Pack is not installed.": "%s"
