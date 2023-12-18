@@ -1,0 +1,23 @@
+{
+  "parent": "imm:technical/root",
+  "criteria": {
+    "consumed_apple": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:enchanted_golden_apple"
+          ]
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "consumed_apple"
+    ]
+  ],
+  "rewards": {
+    "function": "imm:item/enchanted_golden_apple"
+  }
+}

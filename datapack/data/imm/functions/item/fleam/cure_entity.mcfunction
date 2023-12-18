@@ -10,6 +10,8 @@ execute if entity @s[tag=!imm.blood_type.gold] run tag @s add imm.blood_type.nor
 # Particle
 execute if entity @s[tag=imm.blood_type.normal] at @s positioned ~ ~1 ~ run particle minecraft:block minecraft:redstone_block ~ ~ ~ 0.5 0.5 0.5 0 15
 execute if entity @s[tag=imm.blood_type.gold] at @s positioned ~ ~1 ~ run particle minecraft:block minecraft:gold_block ~ ~ ~ 0.5 0.5 0.5 0 15
+# Vial if Gold
+execute if entity @s[tag=imm.blood_type.gold] run loot give @p[tag=imm.tag] loot imm:item/vial_of_ichor
 # cure
 damage @s 2 imm:bloodlet by @p[tag=imm.tag]
 execute if entity @s[type=!player] run tag @s add imm.immune

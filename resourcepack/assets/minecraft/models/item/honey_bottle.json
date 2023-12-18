@@ -1,0 +1,14 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "item/honey_bottle"
+	},
+	"overrides": [
+		{
+			"predicate": {
+				"custom_model_data": 402000
+			},
+			"model": "imm:item/vial_of_ichor"
+		}
+	]
+}
