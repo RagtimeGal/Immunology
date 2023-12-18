@@ -1,11 +1,39 @@
 {
-  "entity.sneeze": {
+  "entity.diseased.blight.sneeze": {
     "sounds": [
       "imm:mob/sneeze1",
       "imm:mob/sneeze2",
       "imm:mob/sneeze3"
     ],
-    "subtitle": "subtitles.imm.entity.sneeze"
+    "subtitle": "subtitles.imm.entity.diseased.blight.sneeze"
+  },
+  "entity.diseased.mar.ambient": {
+    "sounds": [
+      "imm:mob/diseased/mar/ambient1",
+      "imm:mob/diseased/mar/ambient2",
+      "imm:mob/diseased/mar/ambient3"
+    ],
+    "subtitle": "subtitles.imm.entity.diseased.mar.ambient"
+  },
+  "entity.diseased.mar.attack": {
+    "sounds": [
+      "imm:mob/diseased/mar/attack1",
+      "imm:mob/diseased/mar/attack2",
+      "imm:mob/diseased/mar/attack3"
+    ],
+    "subtitle": "subtitles.imm.entity.diseased.mar.attack"
+  },
+  "entity.player.shapeshift": {
+    "sounds": [
+      "imm:mob/player/shapeshift"
+    ],
+    "subtitle": "subtitles.imm.entity.player.shapeshift"
+  },
+  "entity.player.vomit": {
+    "sounds": [
+      "imm:mob/player/vomit"
+    ],
+    "subtitle": "subtitles.imm.entity.player.vomit"
   },
   "item.armor.equip_plague_mask": {
     "sounds": [
@@ -17,5 +45,89 @@
       "item/armor/equip_leather6"
     ],
     "subtitle": "subtitles.imm.item.armor.equip_plague_mask"
+  },
+  "item.fleam.use": {
+    "sounds": [
+      "imm:item/fleam"
+    ],
+    "subtitle": "subtitles.imm.item.fleam.use"
+  },
+  "item.ectoplasm.use": {
+    "sounds": [
+      "imm:item/ectoplasm"
+    ],
+    "subtitle": "subtitles.imm.item.ectoplasm.use"
+  },
+  "entity.vampire.ambient": {
+    "sounds": [
+      "imm:mob/vampire/ambient"
+    ],
+    "subtitle": "subtitles.imm.entity.vampire.ambient"
+  },
+  "entity.vampire.death": {
+    "sounds": [
+      "imm:mob/vampire/death"
+    ],
+    "subtitle": "subtitles.imm.entity.vampire.death"
+  },
+  "entity.vampire.shapeshift": {
+    "sounds": [
+      "imm:mob/vampire/shapeshift"
+    ],
+    "subtitle": "subtitles.imm.entity.vampire.shapeshift"
+  },
+  "entity.vampire.hurt": {
+    "sounds": [
+      "imm:mob/vampire/hurt"
+    ],
+    "subtitle": "subtitles.imm.entity.vampire.hurt"
+  },
+  "entity.basidia.ambient": {
+    "sounds": [
+      "imm:mob/basidia/ambient"
+    ],
+    "subtitle": "subtitles.imm.entity.basidia.ambient"
+  },
+  "entity.basidia.hurt": {
+    "sounds": [
+      "imm:mob/basidia/hurt"
+    ],
+    "subtitle": "subtitles.imm.entity.basidia.hurt"
+  },
+  "entity.basidia.death": {
+    "sounds": [
+      "imm:mob/basidia/death"
+    ],
+    "subtitle": "subtitles.imm.entity.basidia.death"
+  },
+  "entity.syphon.ambient": {
+    "sounds": [
+      "imm:mob/syphon/ambient"
+    ],
+    "subtitle": "subtitles.imm.entity.syphon.ambient"
+  },
+  "entity.syphon.death": {
+    "sounds": [
+      "imm:mob/syphon/death"
+    ],
+    "subtitle": "subtitles.imm.entity.syphon.death"
+  },
+  "entity.syphon.lunge": {
+    "sounds": [
+      "imm:mob/syphon/lunge"
+    ],
+    "subtitle": "subtitles.imm.entity.syphon.lunge"
+  },
+  "entity.syphon.hurt": {
+    "sounds": [
+      "imm:mob/syphon/hurt"
+    ],
+    "subtitle": "subtitles.imm.entity.syphon.hurt"
+  },
+  "entity.syphon.lay_basidia": {
+    "sounds": [
+      "imm:mob/syphon/lay_basidia"
+    ],
+    "subtitle": "subtitles.imm.entity.syphon.lay_basidia"
   }
 }

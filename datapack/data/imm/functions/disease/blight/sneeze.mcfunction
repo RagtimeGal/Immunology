@@ -3,6 +3,7 @@
 ####################
 
 execute anchored eyes positioned ^ ^-0.2 ^0.5 run particle minecraft:item_slime ~ ~ ~ 0 0 0 0 5 normal
+playsound imm:entity.diseased.blight.sneeze neutral @a[distance=..16]
 ## Give Effects
 effect give @s slowness 15 0
 execute if score @s imm.blight.milk_counter matches 1.. store result score @s imm.dummy run scoreboard players get @s imm.times_drank_milk_with_blight

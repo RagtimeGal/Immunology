@@ -14,6 +14,7 @@ execute if entity @s[tag=imm.blood_type.gold] at @s positioned ~ ~1 ~ run partic
 execute if entity @s[tag=imm.blood_type.gold] run loot give @p[tag=imm.tag] loot imm:item/vial_of_ichor
 # cure
 damage @s 2 imm:bloodlet by @p[tag=imm.tag]
+playsound imm:item.fleam.use neutral @a[distance=..16]
 execute if entity @s[type=!player] run tag @s add imm.immune
 execute if entity @s[tag=imm.has_blight] run function imm:disease/blight/cure
 execute if entity @s[tag=imm.has_stench] run function imm:disease/stench/cure
