@@ -52,12 +52,6 @@
     ],
     "subtitle": "subtitles.imm.item.fleam.use"
   },
-  "item.ectoplasm.use": {
-    "sounds": [
-      "imm:item/ectoplasm"
-    ],
-    "subtitle": "subtitles.imm.item.ectoplasm.use"
-  },
   "entity.vampire.ambient": {
     "sounds": [
       "imm:mob/vampire/ambient"
