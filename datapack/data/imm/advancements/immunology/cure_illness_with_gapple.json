@@ -1,0 +1,77 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:enchanted_golden_apple"
+        },
+        "title": {
+            "translate": "advancements.imm.immunology.cure_illness_with_gapple.title"
+        },
+        "description": {
+            "translate": "advancements.imm.immunology.cure_illness_with_gapple.description"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "imm:immunology/root",
+    "criteria": {
+        "cure_illness_with_gapple": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:any_of",
+                        "terms": [
+                            {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt": "{Tags:[\"imm.has_stench\"]}"
+                                }
+                            },
+                            {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt": "{Tags:[\"imm.has_blight\"]}"
+                                }
+                            },
+                            {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt": "{Tags:[\"imm.has_mar\"]}"
+                                }
+                            },
+                            {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt": "{Tags:[\"imm.has_transmogrism\"]}"
+                                }
+                            },
+                            {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt": "{Tags:[\"imm.has_syphon_sickness\"]}"
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "item": {
+                    "items": [
+                        "minecraft:enchanted_golden_apple"
+                    ]
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "cure_illness_with_gapple"
+        ]
+    ]
+}

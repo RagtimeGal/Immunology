@@ -1,0 +1,39 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:warped_fungus_on_a_stick",
+            "nbt": "{CustomModelData:402000}"
+        },
+        "title": {
+            "translate": "advancements.imm.immunology.kill_entity_with_bloodletting.title"
+        },
+        "description": {
+            "translate": "advancements.imm.immunology.kill_entity_with_bloodletting.description"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "imm:immunology/obtain_fleam",
+    "criteria": {
+        "kill_entity_with_bloodletting": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "killing_blow": {
+                    "tags": [
+                        {
+                            "id": "imm:bloodletting",
+                            "expected": true
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "kill_entity_with_bloodletting"
+        ]
+    ]
+}

@@ -1,0 +1,39 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:warped_fungus_on_a_stick",
+            "nbt": "{CustomModelData:402000}"
+        },
+        "title": {
+            "translate": "advancements.imm.immunology.obtain_fleam.title"
+        },
+        "description": {
+            "translate": "advancements.imm.immunology.obtain_fleam.description"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "imm:immunology/root",
+    "criteria": {
+        "obtain_fleam": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:warped_fungus_on_a_stick"
+                        ],
+                        "nbt": "{imm:{id:\"imm:fleam\"}}"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "obtain_fleam"
+        ]
+    ]
+}

@@ -1,0 +1,39 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:player_head"
+        },
+        "title": {
+            "translate": "advancements.imm.immunology.have_all_diseases.title"
+        },
+        "description": {
+            "translate": "advancements.imm.immunology.have_all_diseases.description"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "imm:immunology/contract_all_diseases",
+    "criteria": {
+        "have_all_diseases": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "nbt": "{Tags:[\"imm.has_blight\",\"imm.has_stench\",\"imm.has_mar\",\"imm.has_syphon_sickness\",\"imm.has_transmogrism\"]}"
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "have_all_diseases"
+        ]
+    ]
+}

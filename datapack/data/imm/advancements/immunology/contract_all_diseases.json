@@ -1,0 +1,107 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:player_head"
+        },
+        "title": {
+            "translate": "advancements.imm.immunology.contract_all_diseases.title"
+        },
+        "description": {
+            "translate": "advancements.imm.immunology.contract_all_diseases.description"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "imm:immunology/root",
+    "criteria": {
+        "contract_blight": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "nbt": "{Tags:[\"imm.has_blight\"]}"
+                        }
+                    }
+                ]
+            }
+        },
+        "contract_stench": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "nbt": "{Tags:[\"imm.has_stench\"]}"
+                        }
+                    }
+                ]
+            }
+        },
+        "contract_transmogrism": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "nbt": "{Tags:[\"imm.has_transmogrism\"]}"
+                        }
+                    }
+                ]
+            }
+        },
+        "contract_syphon_sickness": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "nbt": "{Tags:[\"imm.has_syphon_sickness\"]}"
+                        }
+                    }
+                ]
+            }
+        },
+        "contract_mar": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "nbt": "{Tags:[\"imm.has_mar\"]}"
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "contract_blight"
+        ],
+        [
+            "contract_stench"
+        ],
+        [
+            "contract_syphon_sickness"
+        ],
+        [
+            "contract_mar"
+        ],
+        [
+            "contract_transmogrism"
+        ]
+    ]
+}
