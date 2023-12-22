@@ -1,0 +1,880 @@
+{
+    "parent": "imm:technical/item_durability_changed/mar_durability_detection",
+    "criteria": {
+        "used_wooden_pickaxe": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "nbt": "{Tags:[\"imm.has_mar\"]}",
+                            "equipment": {
+                                "mainhand": {
+                                    "items": [
+                                        "minecraft:wooden_pickaxe"
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                ],
+                "delta": {
+                    "min": -100,
+                    "max": -1
+                },
+                "item": {
+                    "items": [
+                        "minecraft:wooden_pickaxe"
+                    ]
+                }
+            }
+        },
+        "used_wooden_axe": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "nbt": "{Tags:[\"imm.has_mar\"]}",
+                            "equipment": {
+                                "mainhand": {
+                                    "items": [
+                                        "minecraft:wooden_axe"
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                ],
+                "delta": {
+                    "min": -100,
+                    "max": -1
+                },
+                "item": {
+                    "items": [
+                        "minecraft:wooden_axe"
+                    ]
+                }
+            }
+        },
+        "used_wooden_shovel": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "nbt": "{Tags:[\"imm.has_mar\"]}",
+                            "equipment": {
+                                "mainhand": {
+                                    "items": [
+                                        "minecraft:wooden_shovel"
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                ],
+                "delta": {
+                    "min": -100,
+                    "max": -1
+                },
+                "item": {
+                    "items": [
+                        "minecraft:wooden_shovel"
+                    ]
+                }
+            }
+        },
+        "used_wooden_hoe": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "nbt": "{Tags:[\"imm.has_mar\"]}",
+                            "equipment": {
+                                "mainhand": {
+                                    "items": [
+                                        "minecraft:wooden_hoe"
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                ],
+                "delta": {
+                    "min": -100,
+                    "max": -1
+                },
+                "item": {
+                    "items": [
+                        "minecraft:wooden_hoe"
+                    ]
+                }
+            }
+        },
+        "used_stone_pickaxe": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "nbt": "{Tags:[\"imm.has_mar\"]}",
+                            "equipment": {
+                                "mainhand": {
+                                    "items": [
+                                        "minecraft:stone_pickaxe"
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                ],
+                "delta": {
+                    "min": -100,
+                    "max": -1
+                },
+                "item": {
+                    "items": [
+                        "minecraft:stone_pickaxe"
+                    ]
+                }
+            }
+        },
+        "used_stone_axe": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "nbt": "{Tags:[\"imm.has_mar\"]}",
+                            "equipment": {
+                                "mainhand": {
+                                    "items": [
+                                        "minecraft:stone_axe"
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                ],
+                "delta": {
+                    "min": -100,
+                    "max": -1
+                },
+                "item": {
+                    "items": [
+                        "minecraft:stone_axe"
+                    ]
+                }
+            }
+        },
+        "used_stone_shovel": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "nbt": "{Tags:[\"imm.has_mar\"]}",
+                            "equipment": {
+                                "mainhand": {
+                                    "items": [
+                                        "minecraft:stone_shovel"
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                ],
+                "delta": {
+                    "min": -100,
+                    "max": -1
+                },
+                "item": {
+                    "items": [
+                        "minecraft:stone_shovel"
+                    ]
+                }
+            }
+        },
+        "used_stone_hoe": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "nbt": "{Tags:[\"imm.has_mar\"]}",
+                            "equipment": {
+                                "mainhand": {
+                                    "items": [
+                                        "minecraft:stone_hoe"
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                ],
+                "delta": {
+                    "min": -100,
+                    "max": -1
+                },
+                "item": {
+                    "items": [
+                        "minecraft:stone_hoe"
+                    ]
+                }
+            }
+        },
+        "used_iron_pickaxe": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "nbt": "{Tags:[\"imm.has_mar\"]}",
+                            "equipment": {
+                                "mainhand": {
+                                    "items": [
+                                        "minecraft:iron_pickaxe"
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                ],
+                "delta": {
+                    "min": -100,
+                    "max": -1
+                },
+                "item": {
+                    "items": [
+                        "minecraft:iron_pickaxe"
+                    ]
+                }
+            }
+        },
+        "used_iron_axe": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "nbt": "{Tags:[\"imm.has_mar\"]}",
+                            "equipment": {
+                                "mainhand": {
+                                    "items": [
+                                        "minecraft:iron_axe"
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                ],
+                "delta": {
+                    "min": -100,
+                    "max": -1
+                },
+                "item": {
+                    "items": [
+                        "minecraft:iron_axe"
+                    ]
+                }
+            }
+        },
+        "used_iron_shovel": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "nbt": "{Tags:[\"imm.has_mar\"]}",
+                            "equipment": {
+                                "mainhand": {
+                                    "items": [
+                                        "minecraft:iron_shovel"
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                ],
+                "delta": {
+                    "min": -100,
+                    "max": -1
+                },
+                "item": {
+                    "items": [
+                        "minecraft:iron_shovel"
+                    ]
+                }
+            }
+        },
+        "used_iron_hoe": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "nbt": "{Tags:[\"imm.has_mar\"]}",
+                            "equipment": {
+                                "mainhand": {
+                                    "items": [
+                                        "minecraft:iron_hoe"
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                ],
+                "delta": {
+                    "min": -100,
+                    "max": -1
+                },
+                "item": {
+                    "items": [
+                        "minecraft:iron_hoe"
+                    ]
+                }
+            }
+        },
+        "used_golden_pickaxe": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "nbt": "{Tags:[\"imm.has_mar\"]}",
+                            "equipment": {
+                                "mainhand": {
+                                    "items": [
+                                        "minecraft:golden_pickaxe"
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                ],
+                "delta": {
+                    "min": -100,
+                    "max": -1
+                },
+                "item": {
+                    "items": [
+                        "minecraft:golden_pickaxe"
+                    ]
+                }
+            }
+        },
+        "used_golden_axe": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "nbt": "{Tags:[\"imm.has_mar\"]}",
+                            "equipment": {
+                                "mainhand": {
+                                    "items": [
+                                        "minecraft:golden_axe"
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                ],
+                "delta": {
+                    "min": -100,
+                    "max": -1
+                },
+                "item": {
+                    "items": [
+                        "minecraft:golden_axe"
+                    ]
+                }
+            }
+        },
+        "used_golden_shovel": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "nbt": "{Tags:[\"imm.has_mar\"]}",
+                            "equipment": {
+                                "mainhand": {
+                                    "items": [
+                                        "minecraft:golden_shovel"
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                ],
+                "delta": {
+                    "min": -100,
+                    "max": -1
+                },
+                "item": {
+                    "items": [
+                        "minecraft:golden_shovel"
+                    ]
+                }
+            }
+        },
+        "used_golden_hoe": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "nbt": "{Tags:[\"imm.has_mar\"]}",
+                            "equipment": {
+                                "mainhand": {
+                                    "items": [
+                                        "minecraft:golden_hoe"
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                ],
+                "delta": {
+                    "min": -100,
+                    "max": -1
+                },
+                "item": {
+                    "items": [
+                        "minecraft:golden_hoe"
+                    ]
+                }
+            }
+        },
+        "used_diamond_pickaxe": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "nbt": "{Tags:[\"imm.has_mar\"]}",
+                            "equipment": {
+                                "mainhand": {
+                                    "items": [
+                                        "minecraft:diamond_pickaxe"
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                ],
+                "delta": {
+                    "min": -100,
+                    "max": -1
+                },
+                "item": {
+                    "items": [
+                        "minecraft:diamond_pickaxe"
+                    ]
+                }
+            }
+        },
+        "used_diamond_axe": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "nbt": "{Tags:[\"imm.has_mar\"]}",
+                            "equipment": {
+                                "mainhand": {
+                                    "items": [
+                                        "minecraft:diamond_axe"
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                ],
+                "delta": {
+                    "min": -100,
+                    "max": -1
+                },
+                "item": {
+                    "items": [
+                        "minecraft:diamond_axe"
+                    ]
+                }
+            }
+        },
+        "used_diamond_shovel": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "nbt": "{Tags:[\"imm.has_mar\"]}",
+                            "equipment": {
+                                "mainhand": {
+                                    "items": [
+                                        "minecraft:diamond_shovel"
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                ],
+                "delta": {
+                    "min": -100,
+                    "max": -1
+                },
+                "item": {
+                    "items": [
+                        "minecraft:diamond_shovel"
+                    ]
+                }
+            }
+        },
+        "used_diamond_hoe": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "nbt": "{Tags:[\"imm.has_mar\"]}",
+                            "equipment": {
+                                "mainhand": {
+                                    "items": [
+                                        "minecraft:diamond_hoe"
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                ],
+                "delta": {
+                    "min": -100,
+                    "max": -1
+                },
+                "item": {
+                    "items": [
+                        "minecraft:diamond_hoe"
+                    ]
+                }
+            }
+        },
+        "used_netherite_pickaxe": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "nbt": "{Tags:[\"imm.has_mar\"]}",
+                            "equipment": {
+                                "mainhand": {
+                                    "items": [
+                                        "minecraft:netherite_pickaxe"
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                ],
+                "delta": {
+                    "min": -100,
+                    "max": -1
+                },
+                "item": {
+                    "items": [
+                        "minecraft:netherite_pickaxe"
+                    ]
+                }
+            }
+        },
+        "used_netherite_axe": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "nbt": "{Tags:[\"imm.has_mar\"]}",
+                            "equipment": {
+                                "mainhand": {
+                                    "items": [
+                                        "minecraft:netherite_axe"
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                ],
+                "delta": {
+                    "min": -100,
+                    "max": -1
+                },
+                "item": {
+                    "items": [
+                        "minecraft:netherite_axe"
+                    ]
+                }
+            }
+        },
+        "used_netherite_shovel": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "nbt": "{Tags:[\"imm.has_mar\"]}",
+                            "equipment": {
+                                "mainhand": {
+                                    "items": [
+                                        "minecraft:netherite_shovel"
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                ],
+                "delta": {
+                    "min": -100,
+                    "max": -1
+                },
+                "item": {
+                    "items": [
+                        "minecraft:netherite_shovel"
+                    ]
+                }
+            }
+        },
+        "used_netherite_hoe": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "nbt": "{Tags:[\"imm.has_mar\"]}",
+                            "equipment": {
+                                "mainhand": {
+                                    "items": [
+                                        "minecraft:netherite_hoe"
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                ],
+                "delta": {
+                    "min": -100,
+                    "max": -1
+                },
+                "item": {
+                    "items": [
+                        "minecraft:netherite_hoe"
+                    ]
+                }
+            }
+        },
+        "used_fishing_rod": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "nbt": "{Tags:[\"imm.has_mar\"]}",
+                            "equipment": {
+                                "mainhand": {
+                                    "items": [
+                                        "minecraft:fishing_rod"
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                ],
+                "delta": {
+                    "min": -100,
+                    "max": -1
+                },
+                "item": {
+                    "items": [
+                        "minecraft:fishing_rod"
+                    ]
+                }
+            }
+        },
+        "used_flint_and_steel": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "nbt": "{Tags:[\"imm.has_mar\"]}",
+                            "equipment": {
+                                "mainhand": {
+                                    "items": [
+                                        "minecraft:flint_and_steel"
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                ],
+                "delta": {
+                    "min": -100,
+                    "max": -1
+                },
+                "item": {
+                    "items": [
+                        "minecraft:flint_and_steel"
+                    ]
+                }
+            }
+        },
+        "used_shears": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "nbt": "{Tags:[\"imm.has_mar\"]}",
+                            "equipment": {
+                                "mainhand": {
+                                    "items": [
+                                        "minecraft:shears"
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                ],
+                "delta": {
+                    "min": -100,
+                    "max": -1
+                },
+                "item": {
+                    "items": [
+                        "minecraft:shears"
+                    ]
+                }
+            }
+        },
+        "used_brush": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "nbt": "{Tags:[\"imm.has_mar\"]}",
+                            "equipment": {
+                                "mainhand": {
+                                    "items": [
+                                        "minecraft:brush"
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                ],
+                "delta": {
+                    "min": -100,
+                    "max": -1
+                },
+                "item": {
+                    "items": [
+                        "minecraft:brush"
+                    ]
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "used_wooden_pickaxe",
+            "used_stone_pickaxe",
+            "used_iron_pickaxe",
+            "used_golden_pickaxe",
+            "used_diamond_pickaxe",
+            "used_netherite_pickaxe",
+            "used_wooden_axe",
+            "used_stone_axe",
+            "used_iron_axe",
+            "used_golden_axe",
+            "used_diamond_axe",
+            "used_netherite_axe",
+            "used_wooden_shovel",
+            "used_stone_shovel",
+            "used_iron_shovel",
+            "used_golden_shovel",
+            "used_diamond_shovel",
+            "used_netherite_shovel",
+            "used_wooden_hoe",
+            "used_stone_hoe",
+            "used_iron_hoe",
+            "used_golden_hoe",
+            "used_diamond_hoe",
+            "used_netherite_hoe",
+            "used_fishing_rod",
+            "used_flint_and_steel",
+            "used_shears",
+            "used_brush"
+        ]
+    ],
+    "rewards": {
+        "function": "imm:disease/mar/damage/mainhand"
+    }
+}

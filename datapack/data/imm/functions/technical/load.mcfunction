@@ -12,6 +12,11 @@ scoreboard objectives add imm.fleam.cooldown dummy
 scoreboard objectives add imm.blight.milk_counter dummy
 # Stench
 scoreboard objectives add imm.stench.timer dummy
+# Syphon Sickness
+scoreboard objectives add imm.syphon.pos.x dummy
+scoreboard objectives add imm.syphon.pos.z dummy
+scoreboard objectives add imm.syphon.pos dummy
+scoreboard objectives add imm.syphon.timer dummy
 
 ## Trigger
 scoreboard objectives add imm.wiki trigger
