@@ -7,3 +7,5 @@ execute anchored eyes positioned ^ ^-0.2 ^0.5 run particle minecraft:item_slime 
 effect give @s minecraft:nausea 15 0
 # Damage
 damage @s 3 imm:vomit
+# Advancement
+advancement grant @s only imm:immunology/vomit_food_while_smelly

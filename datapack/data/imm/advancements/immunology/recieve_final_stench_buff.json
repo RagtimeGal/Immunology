@@ -1,0 +1,28 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:diamond_sword"
+        },
+        "title": {
+            "translate": "advancements.imm.immunology.recieve_final_stench_buff.title"
+        },
+        "description": {
+            "translate": "advancements.imm.immunology.recieve_final_stench_buff.description"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "imm:immunology/recieve_stench_buff",
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "impossible"
+        ]
+    ]
+}

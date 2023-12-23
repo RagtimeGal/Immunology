@@ -1,0 +1,28 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:wooden_sword"
+        },
+        "title": {
+            "translate": "advancements.imm.immunology.recieve_stench_buff.title"
+        },
+        "description": {
+            "translate": "advancements.imm.immunology.recieve_stench_buff.description"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "parent": "imm:immunology/contract_stench",
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "impossible"
+        ]
+    ]
+}

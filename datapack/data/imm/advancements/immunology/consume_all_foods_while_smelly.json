@@ -1,0 +1,602 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:baked_potato"
+        },
+        "title": {
+            "translate": "advancements.imm.immunology.consume_all_foods_while_smelly.title"
+        },
+        "description": {
+            "translate": "advancements.imm.immunology.consume_all_foods_while_smelly.description"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "parent": "imm:immunology/vomit_food_while_smelly",
+    "criteria": {
+        "ate_apple": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "nbt": "{Tags:[\"imm.has_stench\"]}"
+                        }
+                    }
+                ],
+                "item": {
+                    "items": [
+                        "minecraft:apple"
+                    ]
+                }
+            }
+        },
+        "ate_golden_apple": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "nbt": "{Tags:[\"imm.has_stench\"]}"
+                        }
+                    }
+                ],
+                "item": {
+                    "items": [
+                        "minecraft:golden_apple"
+                    ]
+                }
+            }
+        },
+        "ate_melon_slice": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "nbt": "{Tags:[\"imm.has_stench\"]}"
+                        }
+                    }
+                ],
+                "item": {
+                    "items": [
+                        "minecraft:melon_slice"
+                    ]
+                }
+            }
+        },
+        "ate_sweet_berries": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "nbt": "{Tags:[\"imm.has_stench\"]}"
+                        }
+                    }
+                ],
+                "item": {
+                    "items": [
+                        "minecraft:sweet_berries"
+                    ]
+                }
+            }
+        },
+        "ate_glow_berries": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "nbt": "{Tags:[\"imm.has_stench\"]}"
+                        }
+                    }
+                ],
+                "item": {
+                    "items": [
+                        "minecraft:glow_berries"
+                    ]
+                }
+            }
+        },
+        "ate_chorus_fruit": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "nbt": "{Tags:[\"imm.has_stench\"]}"
+                        }
+                    }
+                ],
+                "item": {
+                    "items": [
+                        "minecraft:chorus_fruit"
+                    ]
+                }
+            }
+        },
+        "ate_carrot": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "nbt": "{Tags:[\"imm.has_stench\"]}"
+                        }
+                    }
+                ],
+                "item": {
+                    "items": [
+                        "minecraft:carrot"
+                    ]
+                }
+            }
+        },
+        "ate_golden_carrot": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "nbt": "{Tags:[\"imm.has_stench\"]}"
+                        }
+                    }
+                ],
+                "item": {
+                    "items": [
+                        "minecraft:golden_carrot"
+                    ]
+                }
+            }
+        },
+        "ate_potato": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "nbt": "{Tags:[\"imm.has_stench\"]}"
+                        }
+                    }
+                ],
+                "item": {
+                    "items": [
+                        "minecraft:potato"
+                    ]
+                }
+            }
+        },
+        "ate_baked_potato": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "nbt": "{Tags:[\"imm.has_stench\"]}"
+                        }
+                    }
+                ],
+                "item": {
+                    "items": [
+                        "minecraft:baked_potato"
+                    ]
+                }
+            }
+        },
+        "ate_beetroot": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "nbt": "{Tags:[\"imm.has_stench\"]}"
+                        }
+                    }
+                ],
+                "item": {
+                    "items": [
+                        "minecraft:beetroot"
+                    ]
+                }
+            }
+        },
+        "ate_dried_kelp": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "nbt": "{Tags:[\"imm.has_stench\"]}"
+                        }
+                    }
+                ],
+                "item": {
+                    "items": [
+                        "minecraft:dried_kelp"
+                    ]
+                }
+            }
+        },
+        "ate_cooked_beef": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "nbt": "{Tags:[\"imm.has_stench\"]}"
+                        }
+                    }
+                ],
+                "item": {
+                    "items": [
+                        "minecraft:cooked_beef"
+                    ]
+                }
+            }
+        },
+        "ate_cooked_porkchop": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "nbt": "{Tags:[\"imm.has_stench\"]}"
+                        }
+                    }
+                ],
+                "item": {
+                    "items": [
+                        "minecraft:cooked_porkchop"
+                    ]
+                }
+            }
+        },
+        "ate_cooked_mutton": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "nbt": "{Tags:[\"imm.has_stench\"]}"
+                        }
+                    }
+                ],
+                "item": {
+                    "items": [
+                        "minecraft:cooked_mutton"
+                    ]
+                }
+            }
+        },
+        "ate_cooked_chicken": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "nbt": "{Tags:[\"imm.has_stench\"]}"
+                        }
+                    }
+                ],
+                "item": {
+                    "items": [
+                        "minecraft:cooked_chicken"
+                    ]
+                }
+            }
+        },
+        "ate_cooked_rabbit": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "nbt": "{Tags:[\"imm.has_stench\"]}"
+                        }
+                    }
+                ],
+                "item": {
+                    "items": [
+                        "minecraft:cooked_rabbit"
+                    ]
+                }
+            }
+        },
+        "ate_cooked_cod": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "nbt": "{Tags:[\"imm.has_stench\"]}"
+                        }
+                    }
+                ],
+                "item": {
+                    "items": [
+                        "minecraft:cooked_cod"
+                    ]
+                }
+            }
+        },
+        "ate_cooked_salmon": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "nbt": "{Tags:[\"imm.has_stench\"]}"
+                        }
+                    }
+                ],
+                "item": {
+                    "items": [
+                        "minecraft:cooked_salmon"
+                    ]
+                }
+            }
+        },
+        "ate_bread": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "nbt": "{Tags:[\"imm.has_stench\"]}"
+                        }
+                    }
+                ],
+                "item": {
+                    "items": [
+                        "minecraft:bread"
+                    ]
+                }
+            }
+        },
+        "ate_cookie": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "nbt": "{Tags:[\"imm.has_stench\"]}"
+                        }
+                    }
+                ],
+                "item": {
+                    "items": [
+                        "minecraft:cookie"
+                    ]
+                }
+            }
+        },
+        "ate_pumpkin_pie": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "nbt": "{Tags:[\"imm.has_stench\"]}"
+                        }
+                    }
+                ],
+                "item": {
+                    "items": [
+                        "minecraft:pumpkin_pie"
+                    ]
+                }
+            }
+        },
+        "ate_mushroom_stew": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "nbt": "{Tags:[\"imm.has_stench\"]}"
+                        }
+                    }
+                ],
+                "item": {
+                    "items": [
+                        "minecraft:mushroom_stew"
+                    ]
+                }
+            }
+        },
+        "ate_beetroot_soup": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "nbt": "{Tags:[\"imm.has_stench\"]}"
+                        }
+                    }
+                ],
+                "item": {
+                    "items": [
+                        "minecraft:beetroot_soup"
+                    ]
+                }
+            }
+        },
+        "ate_rabbit_stew": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "nbt": "{Tags:[\"imm.has_stench\"]}"
+                        }
+                    }
+                ],
+                "item": {
+                    "items": [
+                        "minecraft:rabbit_stew"
+                    ]
+                }
+            }
+        },
+        "ate_suspicious_stew": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "nbt": "{Tags:[\"imm.has_stench\"]}"
+                        }
+                    }
+                ],
+                "item": {
+                    "items": [
+                        "minecraft:suspicious_stew"
+                    ]
+                }
+            }
+        },
+        "ate_milk_bucket": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "nbt": "{Tags:[\"imm.has_stench\"]}"
+                        }
+                    }
+                ],
+                "item": {
+                    "items": [
+                        "minecraft:milk_bucket"
+                    ]
+                }
+            }
+        },
+        "ate_honey_bottle": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "nbt": "{Tags:[\"imm.has_stench\"]}"
+                        }
+                    }
+                ],
+                "item": {
+                    "items": [
+                        "minecraft:honey_bottle"
+                    ]
+                }
+            }
+        },
+        "ate_potion": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "nbt": "{Tags:[\"imm.has_stench\"]}"
+                        }
+                    }
+                ],
+                "item": {
+                    "items": [
+                        "minecraft:potion"
+                    ]
+                }
+            }
+        }
+    },
+    "requirements": [
+        ["ate_apple"],
+        ["ate_golden_apple"],
+        ["ate_melon_slice"],
+        ["ate_sweet_berries"],
+        ["ate_glow_berries"],
+        ["ate_chorus_fruit"],
+        ["ate_carrot"],
+        ["ate_golden_carrot"],
+        ["ate_potato"],
+        ["ate_baked_potato"],
+        ["ate_beetroot"],
+        ["ate_dried_kelp"],
+        ["ate_cooked_beef"],
+        ["ate_cooked_porkchop"],
+        ["ate_cooked_mutton"],
+        ["ate_cooked_chicken"],
+        ["ate_cooked_rabbit"],
+        ["ate_cooked_cod"],
+        ["ate_cooked_salmon"],
+        ["ate_bread"],
+        ["ate_cookie"],
+        ["ate_pumpkin_pie"],
+        ["ate_mushroom_stew"],
+        ["ate_beetroot_soup"],
+        ["ate_rabbit_stew"],
+        ["ate_suspicious_stew"],
+        ["ate_milk_bucket"],
+        ["ate_honey_bottle"],
+        ["ate_potion"]
+    ]
+}

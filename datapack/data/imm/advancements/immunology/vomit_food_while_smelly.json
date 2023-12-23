@@ -1,0 +1,28 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:potato"
+        },
+        "title": {
+            "translate": "advancements.imm.immunology.vomit_food_while_smelly.title"
+        },
+        "description": {
+            "translate": "advancements.imm.immunology.vomit_food_while_smelly.description"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "parent": "imm:immunology/contract_stench",
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "impossible"
+        ]
+    ]
+}
