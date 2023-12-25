@@ -15,7 +15,7 @@
                                     "entity": "this",
                                     "predicate": {
                                         "equipment": {
-                                            "mainhand": {
+                                            "head": {
                                                 "durability": 0,
                                                 "nbt": "{Unbreakable:1b}"
                                             }
@@ -29,7 +29,7 @@
                                 "predicate": {
                                     "nbt": "{Tags:[\"imm.has_mar\"]}",
                                     "equipment": {
-                                        "mainhand": {
+                                        "head": {
                                             "items": [
                                                 "minecraft:wooden_pickaxe"
                                             ]
@@ -61,7 +61,7 @@
                                     "entity": "this",
                                     "predicate": {
                                         "equipment": {
-                                            "mainhand": {
+                                            "head": {
                                                 "durability": 0,
                                                 "nbt": "{Unbreakable:1b}"
                                             }
@@ -75,7 +75,7 @@
                                 "predicate": {
                                     "nbt": "{Tags:[\"imm.has_mar\"]}",
                                     "equipment": {
-                                        "mainhand": {
+                                        "head": {
                                             "items": [
                                                 "minecraft:wooden_axe"
                                             ]
@@ -107,7 +107,7 @@
                                     "entity": "this",
                                     "predicate": {
                                         "equipment": {
-                                            "mainhand": {
+                                            "head": {
                                                 "durability": 0,
                                                 "nbt": "{Unbreakable:1b}"
                                             }
@@ -121,7 +121,7 @@
                                 "predicate": {
                                     "nbt": "{Tags:[\"imm.has_mar\"]}",
                                     "equipment": {
-                                        "mainhand": {
+                                        "head": {
                                             "items": [
                                                 "minecraft:wooden_shovel"
                                             ]
@@ -153,7 +153,7 @@
                                     "entity": "this",
                                     "predicate": {
                                         "equipment": {
-                                            "mainhand": {
+                                            "head": {
                                                 "durability": 0,
                                                 "nbt": "{Unbreakable:1b}"
                                             }
@@ -167,7 +167,7 @@
                                 "predicate": {
                                     "nbt": "{Tags:[\"imm.has_mar\"]}",
                                     "equipment": {
-                                        "mainhand": {
+                                        "head": {
                                             "items": [
                                                 "minecraft:wooden_hoe"
                                             ]
@@ -199,7 +199,7 @@
                                     "entity": "this",
                                     "predicate": {
                                         "equipment": {
-                                            "mainhand": {
+                                            "head": {
                                                 "durability": 0,
                                                 "nbt": "{Unbreakable:1b}"
                                             }
@@ -213,7 +213,7 @@
                                 "predicate": {
                                     "nbt": "{Tags:[\"imm.has_mar\"]}",
                                     "equipment": {
-                                        "mainhand": {
+                                        "head": {
                                             "items": [
                                                 "minecraft:stone_pickaxe"
                                             ]
@@ -245,7 +245,7 @@
                                     "entity": "this",
                                     "predicate": {
                                         "equipment": {
-                                            "mainhand": {
+                                            "head": {
                                                 "durability": 0,
                                                 "nbt": "{Unbreakable:1b}"
                                             }
@@ -259,7 +259,7 @@
                                 "predicate": {
                                     "nbt": "{Tags:[\"imm.has_mar\"]}",
                                     "equipment": {
-                                        "mainhand": {
+                                        "head": {
                                             "items": [
                                                 "minecraft:stone_axe"
                                             ]
@@ -291,7 +291,7 @@
                                     "entity": "this",
                                     "predicate": {
                                         "equipment": {
-                                            "mainhand": {
+                                            "head": {
                                                 "durability": 0,
                                                 "nbt": "{Unbreakable:1b}"
                                             }
@@ -305,7 +305,7 @@
                                 "predicate": {
                                     "nbt": "{Tags:[\"imm.has_mar\"]}",
                                     "equipment": {
-                                        "mainhand": {
+                                        "head": {
                                             "items": [
                                                 "minecraft:stone_shovel"
                                             ]
@@ -337,7 +337,7 @@
                                     "entity": "this",
                                     "predicate": {
                                         "equipment": {
-                                            "mainhand": {
+                                            "head": {
                                                 "durability": 0,
                                                 "nbt": "{Unbreakable:1b}"
                                             }
@@ -351,7 +351,7 @@
                                 "predicate": {
                                     "nbt": "{Tags:[\"imm.has_mar\"]}",
                                     "equipment": {
-                                        "mainhand": {
+                                        "head": {
                                             "items": [
                                                 "minecraft:stone_hoe"
                                             ]
@@ -383,7 +383,7 @@
                                     "entity": "this",
                                     "predicate": {
                                         "equipment": {
-                                            "mainhand": {
+                                            "head": {
                                                 "durability": 0,
                                                 "nbt": "{Unbreakable:1b}"
                                             }
@@ -397,7 +397,7 @@
                                 "predicate": {
                                     "nbt": "{Tags:[\"imm.has_mar\"]}",
                                     "equipment": {
-                                        "mainhand": {
+                                        "head": {
                                             "items": [
                                                 "minecraft:iron_pickaxe"
                                             ]
@@ -429,7 +429,7 @@
                                     "entity": "this",
                                     "predicate": {
                                         "equipment": {
-                                            "mainhand": {
+                                            "head": {
                                                 "durability": 0,
                                                 "nbt": "{Unbreakable:1b}"
                                             }
@@ -443,7 +443,7 @@
                                 "predicate": {
                                     "nbt": "{Tags:[\"imm.has_mar\"]}",
                                     "equipment": {
-                                        "mainhand": {
+                                        "head": {
                                             "items": [
                                                 "minecraft:iron_axe"
                                             ]
@@ -475,7 +475,7 @@
                                     "entity": "this",
                                     "predicate": {
                                         "equipment": {
-                                            "mainhand": {
+                                            "head": {
                                                 "durability": 0,
                                                 "nbt": "{Unbreakable:1b}"
                                             }
@@ -489,7 +489,7 @@
                                 "predicate": {
                                     "nbt": "{Tags:[\"imm.has_mar\"]}",
                                     "equipment": {
-                                        "mainhand": {
+                                        "head": {
                                             "items": [
                                                 "minecraft:iron_shovel"
                                             ]
@@ -521,7 +521,7 @@
                                     "entity": "this",
                                     "predicate": {
                                         "equipment": {
-                                            "mainhand": {
+                                            "head": {
                                                 "durability": 0,
                                                 "nbt": "{Unbreakable:1b}"
                                             }
@@ -535,7 +535,7 @@
                                 "predicate": {
                                     "nbt": "{Tags:[\"imm.has_mar\"]}",
                                     "equipment": {
-                                        "mainhand": {
+                                        "head": {
                                             "items": [
                                                 "minecraft:iron_hoe"
                                             ]
@@ -567,7 +567,7 @@
                                     "entity": "this",
                                     "predicate": {
                                         "equipment": {
-                                            "mainhand": {
+                                            "head": {
                                                 "durability": 0,
                                                 "nbt": "{Unbreakable:1b}"
                                             }
@@ -581,7 +581,7 @@
                                 "predicate": {
                                     "nbt": "{Tags:[\"imm.has_mar\"]}",
                                     "equipment": {
-                                        "mainhand": {
+                                        "head": {
                                             "items": [
                                                 "minecraft:golden_pickaxe"
                                             ]
@@ -613,7 +613,7 @@
                                     "entity": "this",
                                     "predicate": {
                                         "equipment": {
-                                            "mainhand": {
+                                            "head": {
                                                 "durability": 0,
                                                 "nbt": "{Unbreakable:1b}"
                                             }
@@ -627,7 +627,7 @@
                                 "predicate": {
                                     "nbt": "{Tags:[\"imm.has_mar\"]}",
                                     "equipment": {
-                                        "mainhand": {
+                                        "head": {
                                             "items": [
                                                 "minecraft:golden_axe"
                                             ]
@@ -659,7 +659,7 @@
                                     "entity": "this",
                                     "predicate": {
                                         "equipment": {
-                                            "mainhand": {
+                                            "head": {
                                                 "durability": 0,
                                                 "nbt": "{Unbreakable:1b}"
                                             }
@@ -673,7 +673,7 @@
                                 "predicate": {
                                     "nbt": "{Tags:[\"imm.has_mar\"]}",
                                     "equipment": {
-                                        "mainhand": {
+                                        "head": {
                                             "items": [
                                                 "minecraft:golden_shovel"
                                             ]
@@ -705,7 +705,7 @@
                                     "entity": "this",
                                     "predicate": {
                                         "equipment": {
-                                            "mainhand": {
+                                            "head": {
                                                 "durability": 0,
                                                 "nbt": "{Unbreakable:1b}"
                                             }
@@ -719,7 +719,7 @@
                                 "predicate": {
                                     "nbt": "{Tags:[\"imm.has_mar\"]}",
                                     "equipment": {
-                                        "mainhand": {
+                                        "head": {
                                             "items": [
                                                 "minecraft:golden_hoe"
                                             ]
@@ -751,7 +751,7 @@
                                     "entity": "this",
                                     "predicate": {
                                         "equipment": {
-                                            "mainhand": {
+                                            "head": {
                                                 "durability": 0,
                                                 "nbt": "{Unbreakable:1b}"
                                             }
@@ -765,7 +765,7 @@
                                 "predicate": {
                                     "nbt": "{Tags:[\"imm.has_mar\"]}",
                                     "equipment": {
-                                        "mainhand": {
+                                        "head": {
                                             "items": [
                                                 "minecraft:diamond_pickaxe"
                                             ]
@@ -797,7 +797,7 @@
                                     "entity": "this",
                                     "predicate": {
                                         "equipment": {
-                                            "mainhand": {
+                                            "head": {
                                                 "durability": 0,
                                                 "nbt": "{Unbreakable:1b}"
                                             }
@@ -811,7 +811,7 @@
                                 "predicate": {
                                     "nbt": "{Tags:[\"imm.has_mar\"]}",
                                     "equipment": {
-                                        "mainhand": {
+                                        "head": {
                                             "items": [
                                                 "minecraft:diamond_axe"
                                             ]
@@ -843,7 +843,7 @@
                                     "entity": "this",
                                     "predicate": {
                                         "equipment": {
-                                            "mainhand": {
+                                            "head": {
                                                 "durability": 0,
                                                 "nbt": "{Unbreakable:1b}"
                                             }
@@ -857,7 +857,7 @@
                                 "predicate": {
                                     "nbt": "{Tags:[\"imm.has_mar\"]}",
                                     "equipment": {
-                                        "mainhand": {
+                                        "head": {
                                             "items": [
                                                 "minecraft:diamond_shovel"
                                             ]
@@ -889,7 +889,7 @@
                                     "entity": "this",
                                     "predicate": {
                                         "equipment": {
-                                            "mainhand": {
+                                            "head": {
                                                 "durability": 0,
                                                 "nbt": "{Unbreakable:1b}"
                                             }
@@ -903,7 +903,7 @@
                                 "predicate": {
                                     "nbt": "{Tags:[\"imm.has_mar\"]}",
                                     "equipment": {
-                                        "mainhand": {
+                                        "head": {
                                             "items": [
                                                 "minecraft:diamond_hoe"
                                             ]
@@ -935,7 +935,7 @@
                                     "entity": "this",
                                     "predicate": {
                                         "equipment": {
-                                            "mainhand": {
+                                            "head": {
                                                 "durability": 0,
                                                 "nbt": "{Unbreakable:1b}"
                                             }
@@ -949,7 +949,7 @@
                                 "predicate": {
                                     "nbt": "{Tags:[\"imm.has_mar\"]}",
                                     "equipment": {
-                                        "mainhand": {
+                                        "head": {
                                             "items": [
                                                 "minecraft:netherite_pickaxe"
                                             ]
@@ -981,7 +981,7 @@
                                     "entity": "this",
                                     "predicate": {
                                         "equipment": {
-                                            "mainhand": {
+                                            "head": {
                                                 "durability": 0,
                                                 "nbt": "{Unbreakable:1b}"
                                             }
@@ -995,7 +995,7 @@
                                 "predicate": {
                                     "nbt": "{Tags:[\"imm.has_mar\"]}",
                                     "equipment": {
-                                        "mainhand": {
+                                        "head": {
                                             "items": [
                                                 "minecraft:netherite_axe"
                                             ]
@@ -1027,7 +1027,7 @@
                                     "entity": "this",
                                     "predicate": {
                                         "equipment": {
-                                            "mainhand": {
+                                            "head": {
                                                 "durability": 0,
                                                 "nbt": "{Unbreakable:1b}"
                                             }
@@ -1041,7 +1041,7 @@
                                 "predicate": {
                                     "nbt": "{Tags:[\"imm.has_mar\"]}",
                                     "equipment": {
-                                        "mainhand": {
+                                        "head": {
                                             "items": [
                                                 "minecraft:netherite_shovel"
                                             ]
@@ -1073,7 +1073,7 @@
                                     "entity": "this",
                                     "predicate": {
                                         "equipment": {
-                                            "mainhand": {
+                                            "head": {
                                                 "durability": 0,
                                                 "nbt": "{Unbreakable:1b}"
                                             }
@@ -1087,7 +1087,7 @@
                                 "predicate": {
                                     "nbt": "{Tags:[\"imm.has_mar\"]}",
                                     "equipment": {
-                                        "mainhand": {
+                                        "head": {
                                             "items": [
                                                 "minecraft:netherite_hoe"
                                             ]
@@ -1119,7 +1119,7 @@
                                     "entity": "this",
                                     "predicate": {
                                         "equipment": {
-                                            "mainhand": {
+                                            "head": {
                                                 "durability": 0,
                                                 "nbt": "{Unbreakable:1b}"
                                             }
@@ -1133,7 +1133,7 @@
                                 "predicate": {
                                     "nbt": "{Tags:[\"imm.has_mar\"]}",
                                     "equipment": {
-                                        "mainhand": {
+                                        "head": {
                                             "items": [
                                                 "minecraft:fishing_rod"
                                             ]
@@ -1165,7 +1165,7 @@
                                     "entity": "this",
                                     "predicate": {
                                         "equipment": {
-                                            "mainhand": {
+                                            "head": {
                                                 "durability": 0,
                                                 "nbt": "{Unbreakable:1b}"
                                             }
@@ -1179,7 +1179,7 @@
                                 "predicate": {
                                     "nbt": "{Tags:[\"imm.has_mar\"]}",
                                     "equipment": {
-                                        "mainhand": {
+                                        "head": {
                                             "items": [
                                                 "minecraft:flint_and_steel"
                                             ]
@@ -1211,7 +1211,7 @@
                                     "entity": "this",
                                     "predicate": {
                                         "equipment": {
-                                            "mainhand": {
+                                            "head": {
                                                 "durability": 0,
                                                 "nbt": "{Unbreakable:1b}"
                                             }
@@ -1225,7 +1225,7 @@
                                 "predicate": {
                                     "nbt": "{Tags:[\"imm.has_mar\"]}",
                                     "equipment": {
-                                        "mainhand": {
+                                        "head": {
                                             "items": [
                                                 "minecraft:shears"
                                             ]
@@ -1257,7 +1257,7 @@
                                     "entity": "this",
                                     "predicate": {
                                         "equipment": {
-                                            "mainhand": {
+                                            "head": {
                                                 "durability": 0,
                                                 "nbt": "{Unbreakable:1b}"
                                             }
@@ -1271,7 +1271,7 @@
                                 "predicate": {
                                     "nbt": "{Tags:[\"imm.has_mar\"]}",
                                     "equipment": {
-                                        "mainhand": {
+                                        "head": {
                                             "items": [
                                                 "minecraft:brush"
                                             ]
@@ -1303,7 +1303,7 @@
                                     "entity": "this",
                                     "predicate": {
                                         "equipment": {
-                                            "mainhand": {
+                                            "head": {
                                                 "durability": 0,
                                                 "nbt": "{Unbreakable:1b}"
                                             }
@@ -1317,7 +1317,7 @@
                                 "predicate": {
                                     "nbt": "{Tags:[\"imm.has_mar\"]}",
                                     "equipment": {
-                                        "mainhand": {
+                                        "head": {
                                             "items": [
                                                 "minecraft:shield"
                                             ]
@@ -1349,7 +1349,7 @@
                                     "entity": "this",
                                     "predicate": {
                                         "equipment": {
-                                            "mainhand": {
+                                            "head": {
                                                 "durability": 0,
                                                 "nbt": "{Unbreakable:1b}"
                                             }
@@ -1363,7 +1363,7 @@
                                 "predicate": {
                                     "nbt": "{Tags:[\"imm.has_mar\"]}",
                                     "equipment": {
-                                        "mainhand": {
+                                        "head": {
                                             "items": [
                                                 "minecraft:bow"
                                             ]
@@ -1395,7 +1395,7 @@
                                     "entity": "this",
                                     "predicate": {
                                         "equipment": {
-                                            "mainhand": {
+                                            "head": {
                                                 "durability": 0,
                                                 "nbt": "{Unbreakable:1b}"
                                             }
@@ -1409,7 +1409,7 @@
                                 "predicate": {
                                     "nbt": "{Tags:[\"imm.has_mar\"]}",
                                     "equipment": {
-                                        "mainhand": {
+                                        "head": {
                                             "items": [
                                                 "minecraft:crossbow"
                                             ]
@@ -1441,7 +1441,7 @@
                                     "entity": "this",
                                     "predicate": {
                                         "equipment": {
-                                            "mainhand": {
+                                            "head": {
                                                 "durability": 0,
                                                 "nbt": "{Unbreakable:1b}"
                                             }
@@ -1455,7 +1455,7 @@
                                 "predicate": {
                                     "nbt": "{Tags:[\"imm.has_mar\"]}",
                                     "equipment": {
-                                        "mainhand": {
+                                        "head": {
                                             "items": [
                                                 "minecraft:wooden_sword"
                                             ]
@@ -1487,7 +1487,7 @@
                                     "entity": "this",
                                     "predicate": {
                                         "equipment": {
-                                            "mainhand": {
+                                            "head": {
                                                 "durability": 0,
                                                 "nbt": "{Unbreakable:1b}"
                                             }
@@ -1501,7 +1501,7 @@
                                 "predicate": {
                                     "nbt": "{Tags:[\"imm.has_mar\"]}",
                                     "equipment": {
-                                        "mainhand": {
+                                        "head": {
                                             "items": [
                                                 "minecraft:stone_sword"
                                             ]
@@ -1533,7 +1533,7 @@
                                     "entity": "this",
                                     "predicate": {
                                         "equipment": {
-                                            "mainhand": {
+                                            "head": {
                                                 "durability": 0,
                                                 "nbt": "{Unbreakable:1b}"
                                             }
@@ -1547,7 +1547,7 @@
                                 "predicate": {
                                     "nbt": "{Tags:[\"imm.has_mar\"]}",
                                     "equipment": {
-                                        "mainhand": {
+                                        "head": {
                                             "items": [
                                                 "minecraft:iron_sword"
                                             ]
@@ -1579,7 +1579,7 @@
                                     "entity": "this",
                                     "predicate": {
                                         "equipment": {
-                                            "mainhand": {
+                                            "head": {
                                                 "durability": 0,
                                                 "nbt": "{Unbreakable:1b}"
                                             }
@@ -1593,7 +1593,7 @@
                                 "predicate": {
                                     "nbt": "{Tags:[\"imm.has_mar\"]}",
                                     "equipment": {
-                                        "mainhand": {
+                                        "head": {
                                             "items": [
                                                 "minecraft:golden_sword"
                                             ]
@@ -1625,7 +1625,7 @@
                                     "entity": "this",
                                     "predicate": {
                                         "equipment": {
-                                            "mainhand": {
+                                            "head": {
                                                 "durability": 0,
                                                 "nbt": "{Unbreakable:1b}"
                                             }
@@ -1639,7 +1639,7 @@
                                 "predicate": {
                                     "nbt": "{Tags:[\"imm.has_mar\"]}",
                                     "equipment": {
-                                        "mainhand": {
+                                        "head": {
                                             "items": [
                                                 "minecraft:diamond_sword"
                                             ]
@@ -1671,7 +1671,7 @@
                                     "entity": "this",
                                     "predicate": {
                                         "equipment": {
-                                            "mainhand": {
+                                            "head": {
                                                 "durability": 0,
                                                 "nbt": "{Unbreakable:1b}"
                                             }
@@ -1685,7 +1685,7 @@
                                 "predicate": {
                                     "nbt": "{Tags:[\"imm.has_mar\"]}",
                                     "equipment": {
-                                        "mainhand": {
+                                        "head": {
                                             "items": [
                                                 "minecraft:netherite_sword"
                                             ]
@@ -1717,7 +1717,7 @@
                                     "entity": "this",
                                     "predicate": {
                                         "equipment": {
-                                            "mainhand": {
+                                            "head": {
                                                 "durability": 0,
                                                 "nbt": "{Unbreakable:1b}"
                                             }
@@ -1731,7 +1731,7 @@
                                 "predicate": {
                                     "nbt": "{Tags:[\"imm.has_mar\"]}",
                                     "equipment": {
-                                        "mainhand": {
+                                        "head": {
                                             "items": [
                                                 "minecraft:carrot_on_a_stick"
                                             ]
@@ -1763,7 +1763,7 @@
                                     "entity": "this",
                                     "predicate": {
                                         "equipment": {
-                                            "mainhand": {
+                                            "head": {
                                                 "durability": 0,
                                                 "nbt": "{Unbreakable:1b}"
                                             }
@@ -1777,7 +1777,7 @@
                                 "predicate": {
                                     "nbt": "{Tags:[\"imm.has_mar\"]}",
                                     "equipment": {
-                                        "mainhand": {
+                                        "head": {
                                             "items": [
                                                 "minecraft:warped_fungus_on_a_stick"
                                             ]
@@ -1809,7 +1809,7 @@
                                     "entity": "this",
                                     "predicate": {
                                         "equipment": {
-                                            "mainhand": {
+                                            "head": {
                                                 "durability": 0,
                                                 "nbt": "{Unbreakable:1b}"
                                             }
@@ -1823,7 +1823,7 @@
                                 "predicate": {
                                     "nbt": "{Tags:[\"imm.has_mar\"]}",
                                     "equipment": {
-                                        "mainhand": {
+                                        "head": {
                                             "items": [
                                                 "minecraft:leather_helmet"
                                             ]
@@ -1855,7 +1855,7 @@
                                     "entity": "this",
                                     "predicate": {
                                         "equipment": {
-                                            "mainhand": {
+                                            "head": {
                                                 "durability": 0,
                                                 "nbt": "{Unbreakable:1b}"
                                             }
@@ -1869,7 +1869,7 @@
                                 "predicate": {
                                     "nbt": "{Tags:[\"imm.has_mar\"]}",
                                     "equipment": {
-                                        "mainhand": {
+                                        "head": {
                                             "items": [
                                                 "minecraft:chainmail_helmet"
                                             ]
@@ -1901,7 +1901,7 @@
                                     "entity": "this",
                                     "predicate": {
                                         "equipment": {
-                                            "mainhand": {
+                                            "head": {
                                                 "durability": 0,
                                                 "nbt": "{Unbreakable:1b}"
                                             }
@@ -1915,7 +1915,7 @@
                                 "predicate": {
                                     "nbt": "{Tags:[\"imm.has_mar\"]}",
                                     "equipment": {
-                                        "mainhand": {
+                                        "head": {
                                             "items": [
                                                 "minecraft:iron_helmet"
                                             ]
@@ -1947,7 +1947,7 @@
                                     "entity": "this",
                                     "predicate": {
                                         "equipment": {
-                                            "mainhand": {
+                                            "head": {
                                                 "durability": 0,
                                                 "nbt": "{Unbreakable:1b}"
                                             }
@@ -1961,7 +1961,7 @@
                                 "predicate": {
                                     "nbt": "{Tags:[\"imm.has_mar\"]}",
                                     "equipment": {
-                                        "mainhand": {
+                                        "head": {
                                             "items": [
                                                 "minecraft:golden_helmet"
                                             ]
@@ -1993,7 +1993,7 @@
                                     "entity": "this",
                                     "predicate": {
                                         "equipment": {
-                                            "mainhand": {
+                                            "head": {
                                                 "durability": 0,
                                                 "nbt": "{Unbreakable:1b}"
                                             }
@@ -2007,7 +2007,7 @@
                                 "predicate": {
                                     "nbt": "{Tags:[\"imm.has_mar\"]}",
                                     "equipment": {
-                                        "mainhand": {
+                                        "head": {
                                             "items": [
                                                 "minecraft:diamond_helmet"
                                             ]
@@ -2039,7 +2039,7 @@
                                     "entity": "this",
                                     "predicate": {
                                         "equipment": {
-                                            "mainhand": {
+                                            "head": {
                                                 "durability": 0,
                                                 "nbt": "{Unbreakable:1b}"
                                             }
@@ -2053,7 +2053,7 @@
                                 "predicate": {
                                     "nbt": "{Tags:[\"imm.has_mar\"]}",
                                     "equipment": {
-                                        "mainhand": {
+                                        "head": {
                                             "items": [
                                                 "minecraft:netherite_helmet"
                                             ]
@@ -2085,7 +2085,7 @@
                                     "entity": "this",
                                     "predicate": {
                                         "equipment": {
-                                            "mainhand": {
+                                            "head": {
                                                 "durability": 0,
                                                 "nbt": "{Unbreakable:1b}"
                                             }
@@ -2099,7 +2099,7 @@
                                 "predicate": {
                                     "nbt": "{Tags:[\"imm.has_mar\"]}",
                                     "equipment": {
-                                        "mainhand": {
+                                        "head": {
                                             "items": [
                                                 "minecraft:leather_chestplate"
                                             ]
@@ -2131,7 +2131,7 @@
                                     "entity": "this",
                                     "predicate": {
                                         "equipment": {
-                                            "mainhand": {
+                                            "head": {
                                                 "durability": 0,
                                                 "nbt": "{Unbreakable:1b}"
                                             }
@@ -2145,7 +2145,7 @@
                                 "predicate": {
                                     "nbt": "{Tags:[\"imm.has_mar\"]}",
                                     "equipment": {
-                                        "mainhand": {
+                                        "head": {
                                             "items": [
                                                 "minecraft:chainmail_chestplate"
                                             ]
@@ -2177,7 +2177,7 @@
                                     "entity": "this",
                                     "predicate": {
                                         "equipment": {
-                                            "mainhand": {
+                                            "head": {
                                                 "durability": 0,
                                                 "nbt": "{Unbreakable:1b}"
                                             }
@@ -2191,7 +2191,7 @@
                                 "predicate": {
                                     "nbt": "{Tags:[\"imm.has_mar\"]}",
                                     "equipment": {
-                                        "mainhand": {
+                                        "head": {
                                             "items": [
                                                 "minecraft:iron_chestplate"
                                             ]
@@ -2223,7 +2223,7 @@
                                     "entity": "this",
                                     "predicate": {
                                         "equipment": {
-                                            "mainhand": {
+                                            "head": {
                                                 "durability": 0,
                                                 "nbt": "{Unbreakable:1b}"
                                             }
@@ -2237,7 +2237,7 @@
                                 "predicate": {
                                     "nbt": "{Tags:[\"imm.has_mar\"]}",
                                     "equipment": {
-                                        "mainhand": {
+                                        "head": {
                                             "items": [
                                                 "minecraft:golden_chestplate"
                                             ]
@@ -2269,7 +2269,7 @@
                                     "entity": "this",
                                     "predicate": {
                                         "equipment": {
-                                            "mainhand": {
+                                            "head": {
                                                 "durability": 0,
                                                 "nbt": "{Unbreakable:1b}"
                                             }
@@ -2283,7 +2283,7 @@
                                 "predicate": {
                                     "nbt": "{Tags:[\"imm.has_mar\"]}",
                                     "equipment": {
-                                        "mainhand": {
+                                        "head": {
                                             "items": [
                                                 "minecraft:diamond_chestplate"
                                             ]
@@ -2315,7 +2315,7 @@
                                     "entity": "this",
                                     "predicate": {
                                         "equipment": {
-                                            "mainhand": {
+                                            "head": {
                                                 "durability": 0,
                                                 "nbt": "{Unbreakable:1b}"
                                             }
@@ -2329,7 +2329,7 @@
                                 "predicate": {
                                     "nbt": "{Tags:[\"imm.has_mar\"]}",
                                     "equipment": {
-                                        "mainhand": {
+                                        "head": {
                                             "items": [
                                                 "minecraft:netherite_chestplate"
                                             ]
@@ -2361,7 +2361,7 @@
                                     "entity": "this",
                                     "predicate": {
                                         "equipment": {
-                                            "mainhand": {
+                                            "head": {
                                                 "durability": 0,
                                                 "nbt": "{Unbreakable:1b}"
                                             }
@@ -2375,7 +2375,7 @@
                                 "predicate": {
                                     "nbt": "{Tags:[\"imm.has_mar\"]}",
                                     "equipment": {
-                                        "mainhand": {
+                                        "head": {
                                             "items": [
                                                 "minecraft:leather_leggings"
                                             ]
@@ -2407,7 +2407,7 @@
                                     "entity": "this",
                                     "predicate": {
                                         "equipment": {
-                                            "mainhand": {
+                                            "head": {
                                                 "durability": 0,
                                                 "nbt": "{Unbreakable:1b}"
                                             }
@@ -2421,7 +2421,7 @@
                                 "predicate": {
                                     "nbt": "{Tags:[\"imm.has_mar\"]}",
                                     "equipment": {
-                                        "mainhand": {
+                                        "head": {
                                             "items": [
                                                 "minecraft:chainmail_leggings"
                                             ]
@@ -2453,7 +2453,7 @@
                                     "entity": "this",
                                     "predicate": {
                                         "equipment": {
-                                            "mainhand": {
+                                            "head": {
                                                 "durability": 0,
                                                 "nbt": "{Unbreakable:1b}"
                                             }
@@ -2467,7 +2467,7 @@
                                 "predicate": {
                                     "nbt": "{Tags:[\"imm.has_mar\"]}",
                                     "equipment": {
-                                        "mainhand": {
+                                        "head": {
                                             "items": [
                                                 "minecraft:iron_leggings"
                                             ]
@@ -2499,7 +2499,7 @@
                                     "entity": "this",
                                     "predicate": {
                                         "equipment": {
-                                            "mainhand": {
+                                            "head": {
                                                 "durability": 0,
                                                 "nbt": "{Unbreakable:1b}"
                                             }
@@ -2513,7 +2513,7 @@
                                 "predicate": {
                                     "nbt": "{Tags:[\"imm.has_mar\"]}",
                                     "equipment": {
-                                        "mainhand": {
+                                        "head": {
                                             "items": [
                                                 "minecraft:golden_leggings"
                                             ]
@@ -2545,7 +2545,7 @@
                                     "entity": "this",
                                     "predicate": {
                                         "equipment": {
-                                            "mainhand": {
+                                            "head": {
                                                 "durability": 0,
                                                 "nbt": "{Unbreakable:1b}"
                                             }
@@ -2559,7 +2559,7 @@
                                 "predicate": {
                                     "nbt": "{Tags:[\"imm.has_mar\"]}",
                                     "equipment": {
-                                        "mainhand": {
+                                        "head": {
                                             "items": [
                                                 "minecraft:diamond_leggings"
                                             ]
@@ -2591,7 +2591,7 @@
                                     "entity": "this",
                                     "predicate": {
                                         "equipment": {
-                                            "mainhand": {
+                                            "head": {
                                                 "durability": 0,
                                                 "nbt": "{Unbreakable:1b}"
                                             }
@@ -2605,7 +2605,7 @@
                                 "predicate": {
                                     "nbt": "{Tags:[\"imm.has_mar\"]}",
                                     "equipment": {
-                                        "mainhand": {
+                                        "head": {
                                             "items": [
                                                 "minecraft:netherite_leggings"
                                             ]
@@ -2637,7 +2637,7 @@
                                     "entity": "this",
                                     "predicate": {
                                         "equipment": {
-                                            "mainhand": {
+                                            "head": {
                                                 "durability": 0,
                                                 "nbt": "{Unbreakable:1b}"
                                             }
@@ -2651,7 +2651,7 @@
                                 "predicate": {
                                     "nbt": "{Tags:[\"imm.has_mar\"]}",
                                     "equipment": {
-                                        "mainhand": {
+                                        "head": {
                                             "items": [
                                                 "minecraft:leather_boots"
                                             ]
@@ -2683,7 +2683,7 @@
                                     "entity": "this",
                                     "predicate": {
                                         "equipment": {
-                                            "mainhand": {
+                                            "head": {
                                                 "durability": 0,
                                                 "nbt": "{Unbreakable:1b}"
                                             }
@@ -2697,7 +2697,7 @@
                                 "predicate": {
                                     "nbt": "{Tags:[\"imm.has_mar\"]}",
                                     "equipment": {
-                                        "mainhand": {
+                                        "head": {
                                             "items": [
                                                 "minecraft:chainmail_boots"
                                             ]
@@ -2729,7 +2729,7 @@
                                     "entity": "this",
                                     "predicate": {
                                         "equipment": {
-                                            "mainhand": {
+                                            "head": {
                                                 "durability": 0,
                                                 "nbt": "{Unbreakable:1b}"
                                             }
@@ -2743,7 +2743,7 @@
                                 "predicate": {
                                     "nbt": "{Tags:[\"imm.has_mar\"]}",
                                     "equipment": {
-                                        "mainhand": {
+                                        "head": {
                                             "items": [
                                                 "minecraft:iron_boots"
                                             ]
@@ -2775,7 +2775,7 @@
                                     "entity": "this",
                                     "predicate": {
                                         "equipment": {
-                                            "mainhand": {
+                                            "head": {
                                                 "durability": 0,
                                                 "nbt": "{Unbreakable:1b}"
                                             }
@@ -2789,7 +2789,7 @@
                                 "predicate": {
                                     "nbt": "{Tags:[\"imm.has_mar\"]}",
                                     "equipment": {
-                                        "mainhand": {
+                                        "head": {
                                             "items": [
                                                 "minecraft:golden_boots"
                                             ]
@@ -2821,7 +2821,7 @@
                                     "entity": "this",
                                     "predicate": {
                                         "equipment": {
-                                            "mainhand": {
+                                            "head": {
                                                 "durability": 0,
                                                 "nbt": "{Unbreakable:1b}"
                                             }
@@ -2835,7 +2835,7 @@
                                 "predicate": {
                                     "nbt": "{Tags:[\"imm.has_mar\"]}",
                                     "equipment": {
-                                        "mainhand": {
+                                        "head": {
                                             "items": [
                                                 "minecraft:diamond_boots"
                                             ]
@@ -2867,7 +2867,7 @@
                                     "entity": "this",
                                     "predicate": {
                                         "equipment": {
-                                            "mainhand": {
+                                            "head": {
                                                 "durability": 0,
                                                 "nbt": "{Unbreakable:1b}"
                                             }
@@ -2881,7 +2881,7 @@
                                 "predicate": {
                                     "nbt": "{Tags:[\"imm.has_mar\"]}",
                                     "equipment": {
-                                        "mainhand": {
+                                        "head": {
                                             "items": [
                                                 "minecraft:netherite_boots"
                                             ]
@@ -2913,7 +2913,7 @@
                                     "entity": "this",
                                     "predicate": {
                                         "equipment": {
-                                            "mainhand": {
+                                            "head": {
                                                 "durability": 0,
                                                 "nbt": "{Unbreakable:1b}"
                                             }
@@ -2927,7 +2927,7 @@
                                 "predicate": {
                                     "nbt": "{Tags:[\"imm.has_mar\"]}",
                                     "equipment": {
-                                        "mainhand": {
+                                        "head": {
                                             "items": [
                                                 "minecraft:trident"
                                             ]
@@ -2959,7 +2959,7 @@
                                     "entity": "this",
                                     "predicate": {
                                         "equipment": {
-                                            "mainhand": {
+                                            "head": {
                                                 "durability": 0,
                                                 "nbt": "{Unbreakable:1b}"
                                             }
@@ -2973,7 +2973,7 @@
                                 "predicate": {
                                     "nbt": "{Tags:[\"imm.has_mar\"]}",
                                     "equipment": {
-                                        "mainhand": {
+                                        "head": {
                                             "items": [
                                                 "minecraft:elytra"
                                             ]
@@ -3062,6 +3062,6 @@
         ]
     ],
     "rewards": {
-        "function": "imm:disease/mar/damage/mainhand"
+        "function": "imm:disease/mar/damage/head"
     }
 }
