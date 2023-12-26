@@ -1,0 +1,42 @@
+{
+  "parent": "imm:technical/root",
+  "criteria": {
+    "plague_mask_picked_up_by_entity": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "type": "#imm:wears_helmets"
+        },
+        "item": {
+          "items": [
+            "minecraft:leather_helmet"
+          ],
+          "nbt": "{imm:{id:\"imm:plague_mask\"}}"
+        }
+      }
+    },
+    "plague_mask_used_on_armor_stand": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:leather_helmet"
+          ],
+          "nbt": "{imm:{id:\"imm:plague_mask\"}}"
+        },
+        "entity": {
+          "type": "minecraft:armor_stand"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "plague_mask_used_on_armor_stand",
+      "plague_mask_picked_up_by_entity"
+    ]
+  ],
+  "rewards": {
+    "function": "imm:item/hat_entity_equip"
+  }
+}
