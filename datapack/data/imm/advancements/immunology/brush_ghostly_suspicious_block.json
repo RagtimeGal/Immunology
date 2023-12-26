@@ -1,0 +1,28 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:brush"
+        },
+        "title": {
+            "translate": "advancements.imm.immunology.brush_ghostly_suspicious_block.title"
+        },
+        "description": {
+            "translate": "advancements.imm.immunology.brush_ghostly_suspicious_block.description"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "imm:immunology/cure_mar",
+    "criteria": {
+        "brush_ghostly_suspicious_block": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "brush_ghostly_suspicious_block"
+        ]
+    ]
+}

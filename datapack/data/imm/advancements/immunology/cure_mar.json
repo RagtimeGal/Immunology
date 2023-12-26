@@ -1,0 +1,28 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:decorated_pot"
+        },
+        "title": {
+            "translate": "advancements.imm.immunology.cure_mar.title"
+        },
+        "description": {
+            "translate": "advancements.imm.immunology.cure_mar.description"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "imm:immunology/contract_mar",
+    "criteria": {
+        "cure_mar": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "cure_mar"
+        ]
+    ]
+}

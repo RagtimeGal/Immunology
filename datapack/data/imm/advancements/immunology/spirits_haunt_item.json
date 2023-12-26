@@ -1,0 +1,28 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:map"
+        },
+        "title": {
+            "translate": "advancements.imm.immunology.spirits_haunt_item.title"
+        },
+        "description": {
+            "translate": "advancements.imm.immunology.spirits_haunt_item.description"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "imm:immunology/contract_mar",
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "impossible"
+        ]
+    ]
+}

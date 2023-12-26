@@ -1,0 +1,42 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:golden_pickaxe"
+        },
+        "title": {
+            "translate": "advancements.imm.immunology.break_tool_with_mar.title"
+        },
+        "description": {
+            "translate": "advancements.imm.immunology.break_tool_with_mar.description"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "imm:immunology/contract_mar",
+    "criteria": {
+        "break_tool_with_mar": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "nbt": "{Tags:[\"imm.has_mar\"]}"
+                        }
+                    }
+                ],
+                "durability": {
+                    "max": 1
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "break_tool_with_mar"
+        ]
+    ]
+}

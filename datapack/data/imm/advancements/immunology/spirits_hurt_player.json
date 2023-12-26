@@ -1,0 +1,41 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:soul_sand"
+        },
+        "title": {
+            "translate": "advancements.imm.immunology.spirits_hurt_player.title"
+        },
+        "description": {
+            "translate": "advancements.imm.immunology.spirits_hurt_player.description"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "imm:immunology/contract_mar",
+    "criteria": {
+        "spirits_hurt_player": {
+            "trigger": "minecraft:entity_hurt_player",
+            "conditions": {
+                "damage": {
+                    "blocked": false,
+                    "type": {
+                        "tags": [
+                            {
+                                "id": "imm:haunting",
+                                "expected": true
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "spirits_hurt_player"
+        ]
+    ]
+}

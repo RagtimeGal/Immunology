@@ -9,3 +9,5 @@ execute if entity @s[tag=imm.has_blight,predicate=imm:random_chance/1_9] run fun
 execute if entity @s[type=minecraft:player] run function imm:entity/player/ten_second_clock
 # Smelly Player
 execute if entity @s[tag=imm.has_stench,type=minecraft:player] run function imm:disease/stench/ten_second_clock
+# Has Mar
+execute if entity @s[tag=imm.has_mar,type=minecraft:player] run function imm:disease/mar/ten_second_clock

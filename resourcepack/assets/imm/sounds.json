@@ -7,13 +7,13 @@
     ],
     "subtitle": "subtitles.imm.entity.diseased.blight.sneeze"
   },
-  "entity.diseased.mar.ambient": {
+  "entity.diseased.mar.used_tool": {
     "sounds": [
-      "imm:mob/diseased/mar/ambient1",
-      "imm:mob/diseased/mar/ambient2",
-      "imm:mob/diseased/mar/ambient3"
+      "imm:mob/diseased/mar/used_tool1",
+      "imm:mob/diseased/mar/used_tool2",
+      "imm:mob/diseased/mar/used_tool3"
     ],
-    "subtitle": "subtitles.imm.entity.diseased.mar.ambient"
+    "subtitle": "subtitles.imm.entity.diseased.mar.used_tool"
   },
   "entity.diseased.mar.attack": {
     "sounds": [
@@ -22,6 +22,12 @@
       "imm:mob/diseased/mar/attack3"
     ],
     "subtitle": "subtitles.imm.entity.diseased.mar.attack"
+  },
+  "entity.diseased.mar.cure": {
+    "sounds": [
+      "imm:mob/diseased/mar/cure"
+    ],
+    "subtitle": "subtitles.imm.entity.diseased.mar.cure"
   },
   "entity.player.shapeshift": {
     "sounds": [

@@ -1,0 +1,39 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:soul_sand"
+        },
+        "title": {
+            "translate": "advancements.imm.immunology.contract_mar.title"
+        },
+        "description": {
+            "translate": "advancements.imm.immunology.contract_mar.description"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "imm:immunology/root",
+    "criteria": {
+        "contract_mar": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "nbt": "{Tags:[\"imm.has_mar\"]}"
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "contract_mar"
+        ]
+    ]
+}

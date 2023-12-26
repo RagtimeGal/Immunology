@@ -4,7 +4,7 @@
 
 tag @s remove imm.has_stench
 tag @s remove imm.second_clock
-tag @s[tag=!imm.has_blight] remove imm.ten_second_clock
+tag @s[tag=!imm.has_blight,tag=!imm.has_mar] remove imm.ten_second_clock
 scoreboard players reset @s imm.stench.timer
 function imm:disease/stench/ate/delete_array with entity @s {}
 attribute @s minecraft:generic.max_health modifier remove 17e3a234-f931-4c85-b071-5a37ca4211d1

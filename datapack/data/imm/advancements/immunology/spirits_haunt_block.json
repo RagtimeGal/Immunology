@@ -1,0 +1,44 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:soul_campfire"
+        },
+        "title": {
+            "translate": "advancements.imm.immunology.spirits_haunt_block.title"
+        },
+        "description": {
+            "translate": "advancements.imm.immunology.spirits_haunt_block.description"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "imm:immunology/contract_mar",
+    "criteria": {
+        "spirits_haunt_block": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                            "block": {
+                                "blocks": [
+                                    "minecraft:torch",
+                                    "minecraft:lantern",
+                                    "minecraft:campfire"
+                                ]
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "spirits_haunt_block"
+        ]
+    ]
+}
